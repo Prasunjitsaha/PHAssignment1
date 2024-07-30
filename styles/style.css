@@ -49,6 +49,11 @@ nav{
     height: 581px;
 }
 
+.banner-title{
+    font-size: 48px;
+    font-weight:900;
+}
+
 .banner-description{
     font-size: 13px;
     line-height: 22px;
@@ -65,4 +70,10 @@ nav{
     padding: 21px 24px;
     border-radius: 8px;
     margin:28px 35px;
+    text-decoration: none;
+}
+
+/* Main section started */
+main{
+    margin: 70px 150px;
 }
