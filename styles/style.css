@@ -8,6 +8,11 @@
 }
 
 
+/* Shared styles */
+.text-center{
+    text-align: center;
+}
+
 /* nav bar style */
 nav{
     display: flex;
@@ -35,18 +40,22 @@ nav{
 
 .banner{
     background-image: url('../assets/Hero-bg.png');
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
     /* margin:26px 221px 45px 221px; */
     /* margin:0 auto; */
 }
 
 
 .banner-content{
-    /* justify-content: center; */
-    /* align-items:center; */
+    
     text-align: center;
     padding: 26px 221px 45px 221px;
     max-width: 998px;
     height: 581px;
+    
 }
 
 .banner-title{
@@ -56,9 +65,10 @@ nav{
 
 .banner-description{
     font-size: 13px;
-    line-height: 22px;
+    line-height: 23px;
     font-weight: 600;
     color: rgba(13, 19, 33, 0.70);
+    margin:24px 0 32px 0;
     /* margin-top:20px; */
 }
 
@@ -77,3 +87,134 @@ nav{
 main{
     margin: 70px 150px;
 }
+
+/* Why web dev started */
+.purposes{
+border-radius: 16px;
+
+background-color: rgba(13, 19, 33, 0.02);
+padding: 80px 97px 80px 97px;
+margin:74px 0 80px 0;
+}
+
+.purposes-title{
+    font-weight: 800;
+    font-size: 32px;
+    padding:0 47px 0 47px;
+    margin-bottom: 24px;
+}
+.purposes-description{
+    padding:0 47px 0 47px;
+    
+}
+
+.purpose{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:48px;
+    border-radius: 16px;
+
+    background-image: linear-gradient(90deg, rgb(255, 255, 255),rgba(255, 255, 255, 0));
+    margin-bottom: 32px;
+
+}
+.purpose-content{
+    width:477px;
+}
+.purpose-title{
+    font-size: 24px;
+    font-weight: 700;
+    color:rgba(13, 19, 33, 0.7);
+    line-height: 36px;
+
+}
+
+.purpose-img{
+    width:274px ;
+    height:240px;
+}
+
+.btn-purposes{
+    font-size: 17px;
+    font-weight: 700;
+    color:rgba(13, 19, 33, 0.7);
+    padding:12px 20px;
+    background-color: white;
+    border:2px solid rgba(13, 19, 33, 0.4);
+}
+
+/* Ending of purposes */
+
+
+/* Start Inspiration */
+
+.inspiration-container{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    margin-bottom: 151px;
+    /* margin: 0 auto; */
+}
+
+.inspiration-description{
+
+    margin-bottom: 48px;
+    padding:0 144px;
+    /* max-width:852px; */
+}
+.video-inner{
+    /* padding:32px; */
+    border-radius: 16px;
+    width:1076px;
+    height:550px;
+  
+}
+.video-outer{
+    padding:32px;
+    
+    border-radius: 16px;
+    border:2px solid rgba(13, 19, 33, 0.2);
+}
+
+
+
+/* Style of My current target section */
+
+.target-contents{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 24px;
+    margin-bottom: 151px;
+
+}
+.target-content{
+    padding:40px;
+    width:300px;
+    height:250px;
+    border-radius: 16px;
+    line-height: 26px;
+}
+.target1-bg-color{
+    background-color:rgba(255, 76, 30, 0.05) ;
+}
+
+.target2-bg-color{
+    background-color: rgba(0, 76, 232, 0.05) ;
+}
+
+.target3-bg-color{
+    background-color:rgba(255, 223, 0, 0.05) ;
+}
+.target-content-title{
+    font-weight: 800;
+    font-size: 24px;
+}
+.target-content-link{
+    color:black;
+    font-weight: 700;
+    fonts:16px;
+}
+
